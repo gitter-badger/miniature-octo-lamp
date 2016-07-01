@@ -27,7 +27,7 @@
 		<developer>
 			<id>LocXar</id>
 			<name>Patrick Hasel</name>
-			<email>patrick.hasel@web.de<email>
+			<email>patrick.hasel@web.de</email>
 			<url></url>
 			<organization>Selex ES GmbH</organization>
 			<organizationUrl>http://www.de.selex-es.com</organizationUrl>
@@ -55,14 +55,17 @@
 	</dependencies>
 	<!-- Build Settings -->
 	<build>
-		
+
 	</build>
 	<reporting>
-		
+
 	</reporting>
 	<!-- Environment Settings -->
 	<issueManagement></issueManagement>
-	<ciManagement></ciManagement>
+	<ciManagement>
+		<system>continuum</system>
+		<url>https://travis-ci.org/LocXar/miniature-octo-lamp</url>
+	</ciManagement>
 	<mailingLists></mailingLists>
 	<scm></scm>
 	<prerequisites></prerequisites>
