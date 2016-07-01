@@ -6,7 +6,7 @@
 	<artifactId>testing</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
-	<parent></parent>
+	<!-- <parent></parent> -->
 	<modules></modules>
 	<!-- More Project Information -->
 	<name>testing</name>
@@ -61,7 +61,10 @@
 
 	</reporting>
 	<!-- Environment Settings -->
-	<issueManagement></issueManagement>
+	<issueManagement>
+		<system>GitHub Issues</system>
+		<url>https://github.com/LocXar/miniature-octo-lamp/issues</url>
+	</issueManagement>
 	<ciManagement>
 		<system>continuum</system>
 		<url>https://travis-ci.org/LocXar/miniature-octo-lamp</url>
